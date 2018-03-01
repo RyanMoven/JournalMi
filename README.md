@@ -1,1 +1,2 @@
-# JournalMi
+# journalMe
+a place to blog 

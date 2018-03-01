@@ -1,19 +1,41 @@
 {
-  "name": "journalmi",
+  "name": "journalme",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "a journal website ",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RyanMoven/JournalMi.git"
+    "url": "git+https://github.com/andyeo/journalMe.git"
   },
-  "author": "",
+  "author": "Andy Ontaneda, Ryan Moven, Mario Mackay",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/RyanMoven/JournalMi/issues"
+    "url": "https://github.com/andyeo/journalMe/issues"
   },
-  "homepage": "https://github.com/RyanMoven/JournalMi#readme"
+  "homepage": "https://github.com/andyeo/journalMe#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "bootstrap": "4.0.0",
+    "express": "^4.16.2",
+    "font-awesome": "4.7.0",
+    "jquery": "3.3.1",
+    "mysql": "^2.15.0",
+    "passport": "^0.4.0",
+    "passport-http": "^0.3.0",
+    "path": "^0.12.7",
+    "sql": "^0.78.0"
+  },
+  "devDependencies": {
+    "browser-sync": "2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "3.9.2",
+    "gulp-header": "2.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "3.0.0"
+  }
 }
